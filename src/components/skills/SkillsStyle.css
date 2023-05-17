@@ -1,0 +1,22 @@
+.section {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  scroll-snap-align: start;
+}
+
+#skills{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 30px;
+  align-items: center;
+}
+
+.head {
+  margin: 20px 0;
+  font-size: 50px;
+  color: rgb(14, 14, 12);
+}

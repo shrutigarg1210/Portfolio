@@ -1,0 +1,14 @@
+:root {
+    --background1: rgb(39, 47, 66);
+    --background2: rgb(61, 79, 96);
+    --primary: rgb(130, 192, 90);
+    --secondary: rgb(245, 187, 41);
+    --text: aliceblue;
+    --brace: skyblue;
+    --bracket: rgb(211, 200, 30);
+  }
+  
+  .brace {
+    font-size: 30px;
+    color: var(--brace);
+  }

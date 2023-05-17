@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Fasthand&family=Lobster&display=swap');
+#home{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 100%; */
+} 
+
+.home-text{
+    /* margin-top: 27%; */
+    /* margin-bottom: 40%; */
+    font-family: 'Fasthand', cursive;
+    font-size: 35px;
+    transform: translateX(-100%);
+    opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+}
+
+@keyframes slide-in-anim {
+	100% {
+		opacity: 1;
+		transform: translateX(-20%);
+	} 
+}
+
+.left::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-resume{
+    align-self: flex-end;
+    margin-top: 10px;
+    background-color: black; 
+    color: aliceblue;
+    border: none;
+    padding: 15px 32px;
+    font-size: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.btn-resume:hover{
+    background-color: grey;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn-resume:active{
+    background-color: #b3b9b3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

@@ -1,0 +1,77 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 100px;
+  height: 100%;
+  /* justify-content: center; */
+}
+
+.contact-heading {
+  font-size: 50px;
+}
+
+.contact-container {
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: 5px;
+}
+
+.contact-name,
+.contact-email,
+.contact-message {
+  padding: 10px 15px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.contact-submit {
+  padding: 10px 10px;
+  width: 40%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(30, 21, 21, 0.8);
+  color: white;
+  margin: 10px !important;
+  cursor: pointer;
+}
+
+.contact-left {
+  width: 40%;
+  padding: 40px 0;
+  /* border: 1px solid red; */
+}
+
+.contact-left div {
+  margin-bottom: 20px;
+}
+
+.contact-right {
+  width: 40%;
+  padding: 40px 0;
+  /* border: 1px solid red; */
+}
+
+.linkedin {
+  margin-right: 10px;
+  align-items: flex-end;
+}
